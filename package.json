@@ -1,0 +1,10 @@
+{
+  "name": "slavonic-primer",
+  "main": "index.html",
+  "window": {
+    "title": "Slavonic Primer",
+    "toolbar": true,
+    "min_width": 800,
+    "min_height": 600
+  }
+}

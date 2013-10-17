@@ -1,0 +1,7 @@
+#!/bin/bash
+
+PUZZLE_PIECES=(package.json index.html dist/app.js node_modules/* static/*)
+OUTPUT=app.nw
+
+zip -r $OUTPUT "${PUZZLE_PIECES[@]}"
+nw $OUTPUT
