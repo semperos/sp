@@ -23,7 +23,7 @@ build-cljs-prod:
 	lein cljsbuild once prod
 
 clean:
-	mv node_modules/README.md README.md_123456789~
+	@mv node_modules/README.md README.md_123456789~
 	-rm -rf node_modules/*
-	mv README.md_123456789~ node_modules/README.md
+	@mv README.md_123456789~ node_modules/README.md
 	-rm -f app.nw app-prod.nw

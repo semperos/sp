@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PUZZLE_PIECES=(package.json index.html dist/app.js node_modules/* static/*)
+PUZZLE_PIECES=(package.json *.html dist/app.js node_modules/* static/*)
 
 echo "Building package $1"
 zip -r $1 "${PUZZLE_PIECES[@]}"

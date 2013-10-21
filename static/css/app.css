@@ -1,3 +1,95 @@
 body {
-  background-color: #bbb;
+  /* color: #fff; */
+}
+
+body.page-index {
+  color: #cdbfe3;
+  background-color: #563d7c;
+}
+
+.navbar {
+  text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+  background-color: #563d7c;
+  border-color: #463265;
+  box-shadow: 0 1px 0 rgba(255,255,255,.1);
+  border-color: #463265;
+  color: #fff;
+}
+
+.navbar-collapse {
+  border-color: #463265;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-nav > li > a {
+  color: #cdbfe3;
+}
+
+.navbar-nav > li > a:hover {
+  color: #fff;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: #463265;
+}
+
+.navbar-toggle {
+  border-color: #563d7c;
+}
+
+.navbar-toggle:hover {
+  background-color: #463265;
+  border-color: #463265;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #cdbfe3;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #fff;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron h1 {
+  color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #fff;
+}
+
+.section-header {
+  color: #cdbfe3;
+  background-color: #563d7c;
+  font-size: 21px;
+  text-align: left;
+  padding: 30px 15px 40px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+.section-header h1 {
+  font-size: 60px;
+  line-height: 1;
+}
+
+.section-header p {
+  font-weight: 300;
+  line-height: 1.5;
 }
